@@ -127,11 +127,11 @@ wget https://raw.githubusercontent.com/${GitUser}/wsbaru/main/install/sodosok.sh
 echo -e "\e[0;32mDONE INSTALLING SS & SSR\e[0m"
 clear
 #installwg
-echo -e "\e[0;32mINSTALLING WIREGUARD...\e[0m"
-sleep 1
-wget https://raw.githubusercontent.com/${GitUser}/wsbaru/main/install/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
-echo -e "\e[0;32mDONE INSTALLING WIREGUARD\e[0m"
-clear
+#echo -e "\e[0;32mINSTALLING WIREGUARD...\e[0m"
+#sleep 1
+#wget https://raw.githubusercontent.com/${GitUser}/wsbaru/main/install/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
+#echo -e "\e[0;32mDONE INSTALLING WIREGUARD\e[0m"
+#clear
 #install Xray
 echo -e "\e[0;32mINSTALLING XRAY CORE...\e[0m"
 sleep 1
@@ -213,8 +213,8 @@ echo "   - Dropbear                : 442, 109"  | tee -a log-install.txt
 echo "   - OHP Dropbear            : 8585"  | tee -a log-install.txt
 echo "   - OHP SSH                 : 8686"  | tee -a log-install.txt
 echo "   - OHP OpenVPN             : 8787"  | tee -a log-install.txt
-echo "   - Websocket SSH(HTTP)     : 2081"  | tee -a log-install.txt
-echo "   - Websocket SSL(HTTPS)    : 444"  | tee -a log-install.txt
+echo "   - Websocket SSH(HTTP)     : 80"  | tee -a log-install.txt
+echo "   - Websocket SSL(HTTPS)    : 443"  | tee -a log-install.txt
 echo "   - Websocket OpenVPN       : 2084"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "    [INFORMASI Sqd, Bdvp, Ngnx]" | tee -a log-install.txt
