@@ -1,6 +1,6 @@
 #!/bin/bash
 #wget https://github.com/${GitUser}/
-GitUser="Denisuprapto"
+GitUser="arismaramar"
 #shadowsocks-libev obfs install by MDZ
 source /etc/os-release
 OS=$ID
