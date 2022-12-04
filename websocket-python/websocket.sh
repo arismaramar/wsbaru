@@ -6,7 +6,7 @@ echo Sila Tunggu Sebentar...
 sleep 0.5
 cd
 #Buat name user github dan nama folder
-GitUser="Denisuprapto"
+GitUser="arismaramar"
 namafolder="websocket-python"
 #wget https://github.com/${GitUser}/main/${namafolder}/
 
