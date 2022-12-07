@@ -100,7 +100,7 @@ echo $host1 > /root/domain
 echo ""
 elif [[ $host == "2" ]]; then
 #install cf
-wget https://raw.githubusercontent.com/${GitUser}/wsbaru/main/install/cf.sh && chmod +x cf.sh && ./cf.sh
+#wget https://raw.githubusercontent.com/${GitUser}/wsbaru/main/install/cf.sh && chmod +x cf.sh && ./cf.sh
 rm -f /root/cf.sh
 clear
 else
